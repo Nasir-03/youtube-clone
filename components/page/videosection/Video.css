@@ -1,0 +1,22 @@
+/* .video-container{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+
+.video-container {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* Disable wrapping for larger screens */
+    flex-wrap: nowrap; /* Or remove this line entirely */
+    gap: 20px; /* Optional for spacing */
+}

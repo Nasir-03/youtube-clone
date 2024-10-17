@@ -1,0 +1,54 @@
+ .recomended {
+    flex-basis: 39%;
+}
+
+.recomended-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.recomended-section img{
+    flex-basis: 49%;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.recom-info{
+    padding: 10px;
+}
+
+.recom-info h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.recom-info h5{
+    font-size: 16px;
+    margin-top: 3px;
+    color: #555;
+}
+
+.recom-info p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #555;
+}
+
+@media (max-width:1100px) {
+    .recomended{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+    }
+} 
+
+
+
+
+
+
+
+

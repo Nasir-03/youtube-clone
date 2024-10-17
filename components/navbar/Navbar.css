@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  height: 5rem;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.logo-part h1{
+    display: inline-block;
+}
+
+.menu-bar{
+    padding: 10px;
+}
+
+.logo-part i{
+    font-size: 2rem;
+}
+
+
+/* SearchBar.css */
+
+/* .search-container{
+  display: flex;
+}
+
+.input-container{
+  display: flex;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.input-container input{
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font-size: 1.2rem;
+}
+
+.input-container img{
+  width: 25px;
+  background-color: #555;
+} */
+
+.search-input{
+  width: 25rem;
+  height: 2.8rem;
+  border-radius: 12px 0 0 12px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+  background-color: transparent;
+  color: white;
+} 
+
+.search-container {
+  display: flex;
+  align-items: center;
+} 
+
+.search-container img {
+  font-size: 1rem;
+  cursor: pointer;
+  width: 3rem;
+  height: 2.8rem; 
+  border-radius: 0 12px 12px 0;
+  background-color: gray;
+  color: white;
+  border: none;
+} 
+
+.search-input:focus {
+  border-color: #1a73e8; 
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.5);
+}
+
+.mic{
+  font-size: 1.8rem;
+  border-radius: 50%;
+  width: 2.2rem;
+  margin-left: 1rem;
+  cursor: pointer
+}
+
+.login-part{
+  display: flex;
+  gap: 1.5rem;
+  cursor: pointer
+}
+
+.create{
+  font-size: 1.5rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer
+}
+
+.notification{
+  font-size: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer
+}
+
+.loged{
+  /* border-radius: 25%; */
+  border: none;
+  cursor: pointer
+}
+
+.loged img{
+  border-radius: 50%;
+   width: 35px;
+   height: 35px;
+   background-color: none;
+}
+
+@media (max-width:925px) {
+  .login-part i{
+    display: none;
+  }
+  .search-container input{
+    width: 250px;
+  }
+  .login-part .profile-picture{
+    display: block;
+    width: 30px;
+  }
+}
+
+@media (max-width:750px) {
+  .logo-part h1{
+    font-size: 1.5rem;
+  }
+}
+
+.nav-link{
+  text-decoration: none;
+}
